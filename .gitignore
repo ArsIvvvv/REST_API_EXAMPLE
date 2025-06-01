@@ -1,0 +1,49 @@
+## .NET ##
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.vsp
+*.vspx
+*.sap
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+project.lock.json
+
+# Тесты
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+coverage*.xml
+*.coverage
+*.coveragexml
+
+# Файлы окружения
+*.env
+appsettings.Development.json
+appsettings.local.json
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Резервные копии
+*~
+*.swp
+*.bak
+
+# Исключение пустых директорий
+!.gitkeep
