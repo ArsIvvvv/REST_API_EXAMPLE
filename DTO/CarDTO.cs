@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace CarAPI.DTO
-{    // создает объекты определеного типа ( System.Text.Json сам создаст объекты)
+{    // creates objects of a specific type (System.Text.Json will create the objects by itself)
     [JsonPolymorphic(TypeDiscriminatorPropertyName = "Manufacturer")]
     [JsonDerivedType(typeof(BMWDTO), "BMW")]
     [JsonDerivedType(typeof(MercedesDTO), "Mercedes")]
@@ -13,6 +13,7 @@ namespace CarAPI.DTO
         [Required]
         [MaxLength(30)]
         public string Name { get; set; }
+
         [JsonIgnore]
         public string Manufacturer { get; set; }
         [JsonIgnore]

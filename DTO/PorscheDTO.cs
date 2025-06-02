@@ -2,7 +2,7 @@
 {
     public class PorscheDTO: CarDTO
     {
-        public int MaxSpeed { get; set; } = new Random().Next(200, 240);
+        public int MaxSpeed { get; set; } = new Random().Next(200, 240); // Max speed
 
     }
 }

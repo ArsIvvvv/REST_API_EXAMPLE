@@ -27,11 +27,8 @@ namespace CarAPI.Extention
                 
             });
 
-         
 
             services.AddScoped<ICarService, CarService>();
-
-
             return services;
         }
     }

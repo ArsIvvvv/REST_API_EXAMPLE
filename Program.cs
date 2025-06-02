@@ -11,7 +11,7 @@ using System.Text.Json;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCarService();
-builder.Configuration.AddUserSecrets("secrets.json"); // подключение базы данных
+builder.Configuration.AddUserSecrets("secrets.json"); // connecting the database
 
 var connectionString = builder.Configuration
     .GetConnectionString("DefaultConnection");

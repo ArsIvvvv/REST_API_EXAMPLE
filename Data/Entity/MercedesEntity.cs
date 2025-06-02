@@ -3,6 +3,5 @@
     public class MercedesEntity: CarEntity
     {
         public bool WarrantyYears { get; set; }
-
     }
 }

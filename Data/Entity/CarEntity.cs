@@ -10,6 +10,7 @@ namespace CarAPI.Data.Entity
         [Required]
         [MaxLength(30)]
         public string Name { get; set; }
+
         [Required]
         public string Manufacturer { get; set; }
 

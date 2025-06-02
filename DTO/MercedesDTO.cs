@@ -2,7 +2,7 @@
 {
     public class MercedesDTO: CarDTO
     {
-        public bool WarrantyYears { get; set; } = true;// Гарантия
+        public bool WarrantyYears { get; set; } = true; // Guarantee
 
     }
 }
